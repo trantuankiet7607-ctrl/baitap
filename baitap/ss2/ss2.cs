@@ -4,7 +4,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 internal class ss2
 {
-    private static void Main(string[] args)
+    public static void Main_CU1(string[] args)
     {
         // 1.to Add / Sum Two Numbers.
         Console.WriteLine("cau1");
