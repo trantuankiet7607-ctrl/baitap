@@ -10,7 +10,7 @@ namespace baitap.ss3
 {
     internal class ss3
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         { //            ▸The Celsius scale is centigrade, 100 divisions separate the freezing point
           //from the boiling point of water.On the Fahrenheit scale of Anglo - Saxons,
           //these two points are 180 degrees apart.The Kelvin scale is an absolute
