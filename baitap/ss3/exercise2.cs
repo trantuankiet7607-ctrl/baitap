@@ -17,7 +17,7 @@ namespace baitap.ss3
     }
     internal class exercise2
     {
-        public static void Main(string[] args)
+        public static void Main4(string[] args)
         {
             static void bai1()
             {
@@ -375,7 +375,7 @@ namespace baitap.ss3
                 }
                
             }
-            bai8();
+            bai6();
                   
              
 
