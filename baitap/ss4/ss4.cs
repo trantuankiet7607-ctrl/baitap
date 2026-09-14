@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Net;
@@ -9,7 +9,7 @@ namespace baitap.ss4
 {
     internal class ss4
     {
-        public static void Main2(string[] args)
+        public static void Main2cu(string[] args)
         {
             static void bai1()
             {

@@ -7,7 +7,7 @@ namespace baitap.ss4
 {
     internal class baitap3
     {
-        public static void Main(string[]args)
+        public static void Main12(string[]args)
         {
             static void bai1()
             {
