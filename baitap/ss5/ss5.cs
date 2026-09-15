@@ -8,7 +8,7 @@ namespace baitap.ss5
 {
     internal class ss5
     {
-        public static void Main(string[] args)
+        public static void Main11(string[] args)
         {
 
             static void bangcuuchuong()
