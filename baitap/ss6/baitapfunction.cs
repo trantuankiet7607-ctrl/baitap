@@ -261,7 +261,7 @@ namespace baitap.ss6
             return dem;
         }
 
-        public static void Main(string[] args)
+        public static void Main99(string[] args)
         {
             Console.Write(DemSoTu("Học lập trình C#,rất thú vị"));
             //SapXepMang([3 ,2 ,4 ,6]);
