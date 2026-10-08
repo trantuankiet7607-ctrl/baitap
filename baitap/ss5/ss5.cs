@@ -8,7 +8,7 @@ namespace baitap.ss5
 {
     internal class ss5
     {
-        public static void Main11(string[] args)
+        public static void Maincu11(string[] args)
         {
 
             static void bangcuuchuong()
@@ -113,7 +113,7 @@ namespace baitap.ss5
                 }
 
             }
-            //bai5();
+            bai5();
             static void bai6()
             {
                 Console.Write("Nhap so so hang: ");
