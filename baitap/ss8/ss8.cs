@@ -248,7 +248,7 @@ namespace baitap.ss8
 
             return ketqua;
         }
-        public static void Main(string[] args)
+        public static void Main123(string[] args)
         {
             //bai1();
             //Console.Write(bai2("a bcd"));
