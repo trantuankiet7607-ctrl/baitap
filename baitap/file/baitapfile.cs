@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Numerics;
 using System.Reflection.Metadata;
 using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -71,6 +72,36 @@ namespace baitap.file
                 foreach (string x in tep)
                 {
                     Console.WriteLine("[File] " + x);
+                }
+            }
+            //            15.Read a text file, then calculate the statistics of the appearance of characters and numbers. (Hint: dùng mảng chữ nhật để xử lý.
+            //Trường hợp yêu cầu thêm ký tự xuất hiện ở các vị trí nào của file(dòng, cột) à dùng  jagged array)
+
+            static void ThongKeKyTu(string duongdan)
+            {
+              
+
+                string noidung = File.ReadAllText(duongdan);
+                int[,] bangThongKe = new int[256, 2];
+
+                for (int i = 0; i < noidung.Length; i++)
+                {
+                    char kytu = noidung[i];
+                    int vitri = (int)kytu;
+
+                    if (vitri < 256 && char.IsLetterOrDigit(kytu))
+                    {
+                        bangThongKe[vitri, 1]++;
+                        bangThongKe[vitri, 0] = vitri;
+                    }
+                }
+
+                for (int i = 0; i < 256; i++)
+                {
+                    if (bangThongKe[i, 1] > 0)
+                    {
+                        Console.WriteLine($"'{(char)bangThongKe[i, 0]}': {bangThongKe[i, 1]}");
+                    }
                 }
             }
         }
